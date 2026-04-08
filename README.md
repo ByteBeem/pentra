@@ -37,7 +37,7 @@ Pentra aims to provide a clean, efficient, and customizable environment for perf
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ cargo run
 
 ---
 
-## 🖥️ Usage
+##  Usage
 
 ### CLI Example
 
@@ -79,14 +79,14 @@ pentra
 
 ---
 
-## 🔐 Security Notice
+##  Security Notice
 
 Pentra is intended for **authorized security testing only**.
 Do not use this tool on systems you do not own or have explicit permission to test.
 
 ---
 
-## 🛠️ Roadmap
+##  Roadmap
 
 * [ ] Plugin marketplace
 * [ ] GUI dashboard
@@ -96,7 +96,7 @@ Do not use this tool on systems you do not own or have explicit permission to te
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -107,13 +107,13 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
 ---
 
-## 💡 Vision
+##  Vision
 
 Pentra is built to be a modern alternative to traditional pentesting frameworks—minimal, fast, and developer-friendly. Whether you're a cybersecurity engineer, researcher, or student, Pentra gives you the tools to build and test efficiently.
 

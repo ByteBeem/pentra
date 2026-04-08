@@ -1,1 +1,11 @@
 /target
+**/*.rs.bk
+
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+
+*.log
+
+.DS_Store
+Thumbs.db

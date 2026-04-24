@@ -1,5 +1,7 @@
 
-# Pentra
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ByteBeem/pentra/main/pentra-banner.png" alt="Pentra Banner" />
+</p>
 
 **Pentra** is a lightweight, modular desktop penetration testing platform built with Rust. It is designed for speed, flexibility, and extensibility—giving security engineers and researchers a powerful toolkit without the overhead of bulky frameworks.
 

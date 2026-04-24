@@ -1,7 +1,7 @@
 <!-- Pentra Banner -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ByteBeem/pentra/main/assets/pentra-banner.png" alt="Pentra Banner" />
+  <img src="https://raw.githubusercontent.com/ByteBeem/pentra/main/pentra-banner.png" alt="Pentra Banner" />
 </p>
 
 # Security Policy

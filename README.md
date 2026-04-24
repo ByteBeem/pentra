@@ -1,3 +1,11 @@
+  ██████╗ ███████╗███╗   ██╗████████╗██████╗  █████╗
+  ██╔══██╗██╔════╝████╗  ██║╚══██╔══╝██╔══██╗██╔══██╗
+  ██████╔╝█████╗  ██╔██╗ ██║   ██║   ██████╔╝███████║
+  ██╔═══╝ ██╔══╝  ██║╚██╗██║   ██║   ██╔══██╗██╔══██║
+  ██║     ███████╗██║ ╚████║   ██║   ██║  ██║██║  ██║
+  ╚═╝     ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝"#
+
+
 # Pentra
 
 **Pentra** is a lightweight, modular desktop penetration testing platform built with Rust. It is designed for speed, flexibility, and extensibility—giving security engineers and researchers a powerful toolkit without the overhead of bulky frameworks.

@@ -1,87 +1,120 @@
+<!-- Pentra Banner -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ByteBeem/pentra/main/assets/pentra-banner.png" alt="Pentra Banner" />
+</p>
+
 # Security Policy
 
 ## Supported Versions
 
-We actively maintain and provide security updates for the following versions of this project:
+Pentra is actively evolving. Security updates are only guaranteed for the latest stable releases.
 
-| Version | Supported       |
-| ------- | --------------- |
-| 5.1.x   | ✅ Supported     |
-| 5.0.x   | ❌ Not Supported |
-| 4.0.x   | ✅ Supported     |
-| < 4.0   | ❌ Not Supported |
+| Version                 | Supported       |
+| ----------------------- | --------------- |
+| Latest (main)           | Supported       |
+| Previous minor versions | Limited Support |
+| Legacy versions         | Not Supported   |
 
->  **Important:** We strongly recommend upgrading to the latest supported version to ensure your system is protected against known vulnerabilities.
-
----
-
-##  Reporting a Vulnerability
-
-We take security seriously and appreciate responsible disclosure from the community.
-
-###  How to Report
-
-If you discover a vulnerability, please report it privately:
-
-* **Email:** [contact@mxolisi.dev](mailto:contact@mxolisi.dev)
+Important: Due to the security-sensitive nature of penetration testing tools, running outdated versions may expose you to vulnerabilities or inaccurate results. Always use the latest release.
 
 ---
 
-### What to Include
+## Reporting a Vulnerability
 
-To help us respond quickly and effectively, include:
+Pentra is a security tool, so its own security is critical.
 
-* A clear description of the vulnerability
-* Steps to reproduce the issue
-* Affected endpoints, services, or components
-* Potential impact and severity
-* Proof-of-concept, logs, or screenshots (if available)
+If you discover a vulnerability in Pentra itself (not in scanned targets), please report it responsibly.
 
----
+### Contact
 
-### Response Timeline
-
-We aim to handle reports promptly:
-
-* **Initial acknowledgment:** within 24–48 hours
-* **Investigation updates:** every 2–4 days
-* **Resolution time:** depends on severity and complexity
+Email: [contact@mxolisi.dev](mailto:contact@mxolisi.dev)
 
 ---
 
-### Resolution Process
+## What to Include
 
-* **If the vulnerability is confirmed:**
+To help us investigate efficiently, include:
 
-  * We will prioritize and develop a fix
-  * A security patch will be released
-  * Disclosure may follow after the issue is resolved
-  * Credit will be given to the reporter (if requested)
-
-* **If the report is not accepted:**
-
-  * We will provide a clear explanation
+* Type of issue (e.g., memory safety flaw, remote code execution, privilege escalation, data leak)
+* Affected component (scanner, CLI, plugin system, etc.)
+* Clear reproduction steps
+* Proof-of-concept (code, payload, or logs)
+* Impact assessment (what an attacker could achieve)
 
 ---
 
-###  Responsible Disclosure Guidelines
+## Response Timeline
 
-We ask that you:
+* Initial response: within 24–48 hours
+* Triage and validation: within 2–5 days
+* Fix and patch release: depends on severity
 
-* Do **not** publicly disclose vulnerabilities before they are resolved
-* Avoid exploiting the issue beyond what is necessary to demonstrate it
-* Allow reasonable time for us to address the issue
-
----
-
-###  Our Commitment
-
-We are committed to:
-
-* Protecting user data and system integrity
-* Responding transparently and promptly
-* Continuously improving our security practices
+Critical vulnerabilities are prioritized immediately.
 
 ---
 
-Thank you for helping keep this project secure 
+## Vulnerability Handling Process
+
+### If Accepted
+
+* The issue is confirmed and classified by severity
+* A fix is developed and tested
+* A patch is released in a new version
+* Public disclosure may follow after remediation
+* Reporter credit is given (optional)
+
+### If Declined
+
+* A clear explanation will be provided
+* Suggestions may be given if the issue is out of scope
+
+---
+
+## Scope
+
+This policy applies only to vulnerabilities in Pentra itself, including:
+
+* Core engine
+* CLI interface
+* Plugin system
+* Internal networking logic
+
+It does not apply to:
+
+* Vulnerabilities discovered on targets using Pentra
+* Misuse of the tool
+* Third-party integrations or external scripts
+
+---
+
+## Responsible Disclosure
+
+We expect researchers to:
+
+* Avoid public disclosure before a fix is released
+* Not exploit vulnerabilities beyond proof-of-concept
+* Avoid accessing or modifying user data
+* Provide reasonable time for remediation
+
+---
+
+## Legal and Ethical Use
+
+Pentra is built for authorized penetration testing only.
+
+We do not support or condone:
+
+* Unauthorized scanning
+* Illegal intrusion
+* Abuse of the platform
+
+Any misuse of Pentra is the sole responsibility of the user.
+
+---
+
+## Commitment
+
+We are committed to maintaining a secure, memory-safe codebase (Rust-first approach), rapidly addressing vulnerabilities, and building trust with the security community.
+
+---

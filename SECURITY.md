@@ -28,7 +28,7 @@ If you discover a vulnerability in Pentra itself (not in scanned targets), pleas
 
 ### Contact
 
-Email: [contact@mxolisi.dev](mailto:contact@mxolisi.dev)
+Email: [me@mxolisi.dev](mailto:me@mxolisi.dev)
 
 ---
 
